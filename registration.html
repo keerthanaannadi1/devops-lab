@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <h2 align="center">Student Registration Form</h2>
+
+    <form action="submit_registration.php" method="POST">
+
+        <table align="center" cellpadding="8">
+
+            <tr>
+                <td>College Name</td>
+                <td>
+                    <input type="text" name="college_name"
+                    value="ABC Engineering College" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Student Name</td>
+                <td>
+                    <input type="text" name="student_name" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Father's Name</td>
+                <td>
+                    <input type="text" name="father_name" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Mother's Name</td>
+                <td>
+                    <input type="text" name="mother_name" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Date of Birth</td>
+                <td>
+                    <input type="date" name="dob" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gender" value="Male"> Male
+                    <input type="radio" name="gender" value="Female"> Female
+                    <input type="radio" name="gender" value="Other"> Other
+                </td>
+            </tr>
+
+            <tr>
+                <td>Branch</td>
+                <td>
+                    <select name="branch" required>
+                        <option value="">--Select Branch--</option>
+                        <option>CSE</option>
+                        <option>CSE(AI)</option>
+                        <option>CSE(DS)</option>
+                        <option>ECE</option>
+                        <option>EEE</option>
+                        <option>IT</option>
+                        <option>MECH</option>
+                        <option>CIVIL</option>
+                    </select>
+                </td>
+            </tr>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td>Course</td>
+                <td>
+                    <select name="course" required>
+                        <option value="">--Select Course--</option>
+                        <option>Java</option>
+                        <option>Python</option>
+                        <option>C Programming</option>
+                        <option>C++</option>
+                        <option>Data Structures</option>
+                        <option>Web Development</option>
+                        <option>DBMS</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Stream</td>
+                <td>
+                    <select name="stream" required>
+                        <option value="">--Select Stream--</option>
+                        <option>B.Tech</option>
+                        <option>M.Tech</option>
+                        <option>B.Sc</option>
+                        <option>MCA</option>
+                        <option>BCA</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Mobile Number</td>
+                <td>
+                    <input type="tel" name="mobile"
+                    pattern="[0-9]{10}" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Alternative Mobile</td>
+                <td>
+                    <input type="tel" name="alt_mobile"
+                    pattern="[0-9]{10}">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="email" name="email" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Address</td>
+                <td>
+                    <textarea name="address" rows="4" cols="30"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Username</td>
+                <td>
+                    <input type="text" name="username" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Password</td>
+                <td>
+                    <input type="password" name="password" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Confirm Password</td>
+                <td>
+                    <input type="password" name="confirm_password" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Hobbies</td>
+                <td>
+                    <input type="checkbox" name="hobby[]" value="Reading"> Reading
+                    <input type="checkbox" name="hobby[]" value="Sports"> Sports
+                    <input type="checkbox" name="hobby[]" value="Music"> Music
+                    <input type="checkbox" name="hobby[]" value="Coding"> Coding
+                </td>
+            </tr>
+
+            <tr>
+                <td>Upload Photo</td>
+                <td>
+                    <input type="file" name="photo">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
