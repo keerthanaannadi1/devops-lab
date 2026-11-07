@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My To-Do List</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            padding-top: 50px;
+        }
+
+        .container {
+            background: white;
+            width: 400px;
+            padding: 25px;
+        }
+
+        input {
+            width: 70%;
+            padding: 10px;
+        }
+
+        button {
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .student-info {
+            background: #f0f4ff;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .delete {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>My To-Do List</h1>
+
+        <div class="student-info">
+            <p><strong>Name:</strong> Dhanalaxmi</p>
+            <p><strong>Roll No:</strong> 25WH5A0533</p>
+        </div>
+
+        <input
+            type="text"
+            id="todoInput"
+            placeholder="Enter a task"
+        >
+
+        <button onclick="addTodo()">Add</button>
+
+        <ul id="todoList"></ul>
+
+    </div>
+
+    <script src="package.js"></script>
+
+</body>
+
+</html>
